@@ -1,0 +1,13 @@
+extends ../shared/template
+
+block content
+  h1 One Die
+
+  button.button.button-border#roll Roll
+
+  #result Winner:
+  #die1
+  #die2
+
+block scripts
+  script(src='/js/es6/compiled/twodie.js')
